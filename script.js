@@ -20,7 +20,7 @@ passInp.addEventListener("keyup", (e) => {
         redirectLink.href="#"
     }
     else{
-        redirectLink.href="https://gmail.com"
+        redirectLink.href="https://bit.ly/3tkp24H"
     }
 
     letters(e.code)

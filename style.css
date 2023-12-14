@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+
+    padding: 40px;
+
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 15px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.top .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.top .text h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.top .text h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.passInp{
+    width: 300px;
+    height: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 220, 224);
+    padding: 15px;
+}
+
+.passInp:hover, .passInp:focus{
+    border: 1px solid #1B72E8;
+}
+
+.verify{
+    background-color: #1B72E8;
+    color: #fff;
+
+    border: none;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.verify:hover{
+    background: #1E65C8;
+}
+#checkbox, .showPassLabel{
+    cursor: pointer;
+}
+
+
+
+.plus {
+    width: 480px;
+    /* padding: 40px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plus select *{
+    font-family: 'Roboto';
+    color: rgb(60, 64, 67);
+    font-size: 12px;
+
+}
+.plus select{
+    border: 0;
+    background-color: #fff;
+    width: 200px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.plus .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.plus a{
+    color: rgb(60, 64, 67);
+    font-size: 12px;
+}
